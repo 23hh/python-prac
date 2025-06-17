@@ -1,12 +1,12 @@
 '''
-https://school.programmers.co.kr/learn/courses/30/lessons/181943
-文字列my_stringのインテックsからoverwrite_stringを上書きし、新しい文字列を返す。
-文字列を3つに分けて結合する
-1.前半: my_string[:s]
-2.中間: overwrite_string
-3.後半: my_string[s + len(overwrite_string):]
+https://school.programmers.co.kr/learn/courses/30/lessons/181942
+
+2つの文字列の長さが同じなので、
+for文でインテックを回してstr1[i] + str2[i]を順番に結合すればよい。
 '''
 
-def solution(my_string, overwrite_string, s):
-    answer = my_string[:s] + overwrite_string + my_string[s + len(overwrite_string):]
+def solution(str1, str2):
+    answer = ''
+    for i in range(0, len(str1)):
+        answer = answer + str1[i] + str2[i]
     return answer
