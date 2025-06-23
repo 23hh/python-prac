@@ -1,6 +1,5 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/120903
 
-// 🧠 アプローチ（日本語）
 // filter() を使って、s1 の中で s2 に含まれる要素を抽出し
 
 // その数（長さ）を返す
