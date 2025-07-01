@@ -1,0 +1,12 @@
+.tab.active {
+  background-color: #333;
+  color: white;
+}
+
+.content {
+  display: none;
+}
+
+.content.show {
+  display: block;
+}
